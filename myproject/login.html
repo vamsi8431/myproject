@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <h1 class="text-center mt-4">Login </h1> 
+
+
+    <div class="login-form">
+        <p class="text-center">Enter Your Registered Details</p> 
+        <form action="LoginSuccess.html">
+            
+            <div class="form-group">
+                <label for="uname">Username:</label>
+                <input type="text" class="form-control" id="uname" name="uname" required>
+            </div>
+
+            
+            <div class="form-group">
+                <label for="pass">Password:</label>
+                <input type="password" class="form-control" id="pass" name="pass" required>
+            </div>
+
+            
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="info" name="info">
+                <label class="form-check-label" for="info">Save My Information</label>
+            </div>
+
+            
+            <div class="form-group text-center">
+                <input type="submit" class="btn btn-submit" value="Login">
+            </div>
+        </form>
+    </div>
+
+    
+    <footer>
+        &copy; 2024 Login Page
+    </footer>
+
+</body>
+</html>

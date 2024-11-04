@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8d7da; /* Light pink background */
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.order-container {
+    background-color: #fff; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.order-container h3 {
+    color: #e74c3c; 
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+
+.btn-primary {
+    background-color: #e74c3c;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #c0392b;
+}
+
+.btn-secondary {
+    background-color: #95a5a6;
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #7f8c8d;
+}
+
+
+#totalPrice {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+    margin: 15px 0;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+
+    <h1 class="text-center mt-4">Registration</h1> <!-- Moved title to the top of the page -->
+
+    <form action="login.html" class="registration-form">
+        
+        
+        <div class="form-group row">
+            <label for="yourname" class="col-sm-4 col-form-label">Username:</label>
+            <div class="col-sm-8">
+                <input type="text" class="form-control" id="yourname" name="yourname" required>
+            </div>
+        </div>
+
+        
+        <div class="form-group row">
+            <label for="password" class="col-sm-4 col-form-label">Password:</label>
+            <div class="col-sm-8">
+                <input type="password" class="form-control" id="password" name="registered_password" required>
+            </div>
+        </div>
+
+        
+        <div class="form-group row">
+            <label for="email" class="col-sm-4 col-form-label">Email:</label>
+            <div class="col-sm-8">
+                <input type="email" class="form-control" id="email" name="email" list="emails" required>
+                <datalist id="emails">
+                    <option value="vamsi@gmail.com">
+                    <option value="vamsik12@gmail.com">
+                    <option value="Vamsik43@gmail.com">
+                    <option value="kluniversity.in">
+                </datalist>
+            </div>
+        </div>
+
+        
+        <div class="form-group row">
+            <label for="dob" class="col-sm-4 col-form-label">Date of Birth:</label>
+            <div class="col-sm-8">
+                <input type="date" class="form-control" id="dob" name="dob" required>
+            </div>
+        </div>
+
+        
+        <div class="form-group row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-8">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="info" name="info" required>
+                    <label class="form-check-label" for="info">I confirm the above information is true</label>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="form-group row">
+            <label for="stext" class="col-sm-4 col-form-label">Additional Info:</label>
+            <div class="col-sm-8">
+                <textarea class="form-control" id="stext" name="stext" rows="4" required placeholder="Mention Your Email"></textarea>
+            </div>
+        </div>
+
+        
+        <p class="text-center font-weight-bold">Your info will be verified...</p>
+
+        <div class="form-group row">
+            <div class="col text-center">
+                <input type="submit" class="btn btn-submit" value="Register">
+            </div>
+        </div>
+    </form>
+
+    
+    <footer>
+        &copy; 2024 Registration Page
+    </footer>
+
+</body>
+</html>

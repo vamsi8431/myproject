@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Details</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="order.css">
+    <script src="order.js" defer></script>
+</head>
+<body>
+
+    <div class="order-container">
+        <h3 id="productTitle"></h3>
+        <p>Quantity: <input type="number" id="quantity" value="1" min="1" style="width: 60px; text-align: center;" onchange="updateTotal()"></p>
+        <p id="totalPrice"></p>
+        <button onclick="placeOrder()" class="btn btn-primary">Order Now</button>
+        <button onclick="window.history.back()" class="btn btn-secondary">Cancel</button>
+    </div>
+</body>
+</html>
